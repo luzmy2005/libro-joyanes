@@ -17,4 +17,4 @@ int main() {
     std::cout << "La cantidad de energía producida es: " << energia << " ergios" << std::endl;
 
     return 0;
-}
+} // ELEVAR EL RESULTADO AL CUBO
