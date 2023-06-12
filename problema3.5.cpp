@@ -18,3 +18,21 @@ int main() {
 
     return 0;
 } // ELEVAR EL RESULTADO AL CUBO
+
+#include <iostream>
+#include <cmath>
+
+int main() {
+    double m, c, E;
+    c = 2.997925e10; // Velocidad de la luz en m/s
+
+    std::cout << "Ingrese la masa (en kg): ";
+    std::cin >> m;
+
+    E = m * std::pow(c, 2); // Ecuación de Einstein: E = mc^2
+    E = std::pow(E, 3); // Elevar al cubo
+
+    std::cout << "La energía resultante es: " << E << " Joules" << std::endl;
+
+    return 0;
+}
